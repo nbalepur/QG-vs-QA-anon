@@ -6,7 +6,7 @@ conda activate ...
 
 # dataset details
 inference_split="train"
-dataset_name="nbalepur/QG-vs-QA"
+dataset_name="..."
 
 # name of the model (identified by the API)
 model_name="meta-llama/Meta-Llama-3-8B-Instruct"
