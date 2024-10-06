@@ -1,6 +1,6 @@
 # QG vs QA
 
-This repository is the official implementation of "Question Answering Meets Answer Questioning: Exposing LLM Inconsistencies in Deductive and Abductive Reasoning", which will soon be uploaded to Arxiv
+This repository is the anonymous implementation of "Question Answering Meets Answer Questioning: Exposing LLM Inconsistencies in Deductive and Abductive Reasoning"
 
 ## Overview
 
@@ -8,7 +8,7 @@ This repository contains the code and dataset to compare the reliability of LLM 
 
 ## Dataset
 
-Our dataset contains 3450 question/answer pairs across four categories (Number, Number + Text, Easy Facts, Hard Facts), and can be accessed through Huggingface [here](https://huggingface.co/datasets/nbalepur/QG-vs-QA) 
+Our dataset contains 3450 question/answer pairs across four categories (Number, Number + Text, Easy Facts, Hard Facts), and can be accessed through the "data" folder with the submission 
 
 ## Setup
 
@@ -76,11 +76,4 @@ Please note that to run the self-consistency check, you must perform a four-step
 The relevant repositories for computing question difficulty and token count are below:
 * Question Difficulty: [Prometheus LLM](https://github.com/prometheus-eval/prometheus-eval)
 * Token Count: [Infini-Gram](https://huggingface.co/spaces/liujch1998/infini-gram)
-
-## Contact
-
-If you have questions, please feel free to raise an issue or contact either of the following authors of the repository:
-- [Nishant Balepur](mailto:nbalepur@umd.edu)
-- [Feng Gu](mailto:fgu1@umd.edu)
-
 
